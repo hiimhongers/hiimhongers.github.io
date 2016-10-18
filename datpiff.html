@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Hongye Xu is a designer and videographer based in Berkeley, CA." content="">
+    <meta name="DatPiff" content="">
+    <title>DatPiff</title>
+    <script src="https://use.typekit.net/cwn3cpr.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Karla:400,700,400italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+  <script>document.body.className += ' fade-out';</script>
+  <div class="container">
+    <div class="backbutton">
+      <a href="index.html">&larr; Back </a>
+    </div>
+    <div class="row">
+      <div class="col-md-9 header">
+          <h2><b>DatPiff Redesign</b></h2>
+          <h3><br>DatPiff is a mixtape distribution service - which means it's a way for hip-hop artists to distribute music for free. I did a heuristic analysis and subsequent redesign of their iOS app.<br>
+            <h4>
+                      It's no secret that I'm a huge fan of hip-hop music - and mixtapes are the best ways for artists to give back to their fans, to get known, and to make their mark. The model seems a bit outdated; on the site, mixtapes are put up for download and are only streamable via DatPiff's proprietary player.<br><br> The iOS app is similarly dated - the mobile app received an overhaul a couple of weeks ago, but still exhibits the same flaws as before. I decided to evaluate the app heuristically after I realised that my complaints to my friends about 'how weird the app felt' had no grounds without basis. <br><br>
+                    <small>I use DatPiff every day, because nobody else has a streamable version of the Future & DJ Esco mixtape.</small></h4>
+          <br><br></h3>
+          <div class="hovereffect">
+            <img class=banner1 src="assets/datpiff-perspective.png">
+              <div class="overlay">
+                <br><br><p>Fancy mockups! This is what I came up with.</p>
+              </div>
+          </div><br><br><br>
+
+      </div>
+    </div><br><hr>
+      <div class="col-md-8 work">
+        <h3><b>Original App Evaluation</b></h3>
+        <h4><span style="line-height: 1.6em">I'll start with a list of Jakob Nielsen's user interface usability heuristics.<br>They're described in more detail <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">here.</a><br><br><small>
+          &nbsp;&nbsp;&nbsp;<i>Visibility of system status</i><br>
+          &nbsp;&nbsp;&nbsp;<i>Match between system and the real world</i><br>
+          &nbsp;&nbsp;&nbsp;<i>User control and freedom</i><br>
+          &nbsp;&nbsp;&nbsp;<i>Consistency and standards</i><br>
+          &nbsp;&nbsp;&nbsp;<i>Error prevention</i><br>
+          &nbsp;&nbsp;&nbsp;<i>Recognition rather than recall</i><br>
+          &nbsp;&nbsp;&nbsp;<i>Flexibility and efficiency of use</i><br>
+          &nbsp;&nbsp;&nbsp;<i>Aesthetic and minimalist design</i><br>
+          &nbsp;&nbsp;&nbsp;<i>Help users recognize, diagnose, and recover from errors</i><br>
+          &nbsp;&nbsp;&nbsp;<i>Help and documentation</i></small><br><br>
+          I took three main screens and evaluated them based on which heuristics were violated. I start with the heuristic violated, the severity (1-4), and a justification of that rating.<br><br>
+          <h3>Highlighted Mixtapes</h3><br>
+          <img class="app2" src="assets/highlighted.png"><br><i><small>"Highlighted Mixtapes", or the default page.</small></i><br><br>
+
+  The highlighted mixtapes screen is the first page the user lands on - it shows the user highlighted mixtapes, or sponsored/popular content. Multiple heuristics are violated here.<br><br>
+
+<b>Visibility of system status: 2</b><br>
+An important thing to note is that the circle in the top right indicates what song/mixtape is currently being played - but with that there is no indication of the song status, or how much of the song has been listened to so far. <br><br>This is a minor usability problem, as the express purpose of the app is to listen to mixtapes end-to-end and progress of a song should not weigh into choosing another song, for example. More popular and general-purpose music streaming apps like Spotify/Apple Music/Google Play Music have a horizontal bar tracking the progress made into the current song which allows users to anticipate music coming up.<br><br>
+
+Aside from this, the blue bars and red circular icon are hard to decipher. Upon viewing in more detail, the blue bars mean the overall approval percentage rating (percentage of upvotes versus downvotes) and the red marks indicate a ‘staff pick’. Both of these are important, but still are not egregiously wrong as they can be figured out upon looking at the other pages in the app.
+<br><br>
+<b>Flexibility & efficiency of use: 2</b><br>
+The screen does not allow users to listen to a mixtape with a single tap, nor does it allow users to play/pause progress on the song being played from the main screen. These are common affordances of other music apps, as they allow for better curation and control. The actions are still able to be accomplished (listening and play/pause) but require 2–3 more taps. The fact that every page can only show ~4 mixtapes is irritating, as a lot of scrolling must be done to navigate the selection of mixtapes (in addition to the fact that scrolling is always less friction than searching when the desired outcome is definitely accessible).<br><br>
+<b>Aesthetic & minimalist design: 2</b><br>
+The limited screen real estate is accentuated by the fact that there is a banner ad that’s unremovable. Only 4 mixtapes are visible at any time with large font sizes, which is a trivial amount of albums, which ends up requiring a lot of scrolling to curate a week’s amount of music.<br><br>
+<h3>Now Playing</h3><br>
+<img class="app2" src="assets/now playing.png"><br><i><small>Now Playing, or the page to control playback</small></i><br><br>
+
+The now playing screen is accessible from the top right of every navigation menu. It allows users to control playback of the selected song and mixtape, and download the mixtape being played.<br><br>
+<b>Aesthetic and minimalist design: 3</b><br>
+The cover of the mixtape, name, and bulkiness of the control layout takes up valuable screen space, meaning the track list starting at the bottom is barely visible and in some cases, especially when the user has her finger around the bottom of the screen, entirely invisible. This has the potential to completely disguise an integral part of the app, which warrants its severity rating. In addition to this, the buttons on the bottom are ambiguous and give little indication of what they do - the one on the left downloads the mixtape, and the one on the bottom right scrolljacks the screen, moving down to reveal the tracklist.<br><br>
+
+<b>Flexibility and efficiency of use: 4</b><br>
+The app doesn’t offer scrubbing - there’s no way to return to or seek out a certain point in time of a song being played. This means there’s no way to ‘recover’ progress if a song is skipped or rewound. This is a catastrophe in usability, as there are many use cases in which a user would like to seek out a specific point in a song. In addition to this, the screen isn’t easily accessible, and has a small area of space assigned to open it (the small circular album cover in the top right), which is difficult for many users especially with large screens who have their hands placed near the bottom of the phone to access. The buttons to control playback are also small and difficult to reach.<br><br>
+
+<b>User control and freedom: 3</b><br>
+As stated before, there’s no way for the user to scrub forward or backward in the song, which means there’s effectively no ‘undo’ button for skipping or rewinding a track. When the user presses the ‘show track list’ button, there’s no equivalent button to skip back up, and there’s no way to ‘un-download’ a mixtape from the screen if pressed by accident. These combined don’t break the app’s usability, but are a major quality of life problem in case of unintentional app interactions.<br><br>
+
+<b>Recognition rather than recall: 1</b><br>
+When the user scrolls down to view the tracklist, the album cover, name and artist are obscured. While presumably the user will understand and remember who the artist was, it relies on momentary recall instead of keeping the artist visible at all times, which saves some cognitive burden.<br><br>
+
+<h3>Search</h3><br>
+<img class="app2" src="assets/search.png"><br><i><small>Searching for content is done through this page.</small></i><br><br>
+Many of the other screens are identical to that of the main screen, so instead I will focus on the search screen. When searching for anything mixtape-related, be it a title, artist, or category, this screen is presented to the user.<br><br>
+
+<b>Visibility of system status: 2</b><br>
+This screen in particular does not allow the user to see what she is listening to while interacting with the screen. This isn’t a major qualm as the use cases for the search screen don’t require knowledge of what’s being listened to; however this adds an extra step when trying to navigate to what is being listened to currently.<br><br>
+
+<b>Aesthetic and minimalist design: 3</b><br>
+The unorthodox method of showing popular search outcomes (like a tag cloud) is an inefficient way of displaying data - it gives no quantitative information, and prohibits more results from being shown in the same space. Additonally, when letters are typed into the search, instead of showing relevant results in a list, they instead repopulate the tag cloud. This results in a nonhierarchical and confusing display of search results, which makes searching difficult, albeit not impossible.<br><br>
+
+<b>User control and freedom: 1</b><br>
+There’s no way to exit this screen directly, i.e. a ‘back’ button or any way to view the now playing screen. This again is not an app breaking feature, but adds more steps to the app’s use.
+<br><br><hr>
+<h3><b>Solution & Implementation</b></h3><br>
+As above, I evaluated every screen and redesigned it in accordance with usability heuristics. But before that, I had to do some user research.<br><br>
+Nobody in my close circle was particularly interested in underground or obscure hip hop releases, so I went on the internet to learn a bit about the background of mixtapes. They're always free, generally less polished/refined releases meant to showcase an artist's style or expositions, and are typically listened to start to finish, and a lot of mixtapes have a single narrative and skits between songs. This behavior means a shuffle functionality isn't really necessary, and mixing and matching songs into playlists isn't necessary; no mixtape site supports this either.<br><br>Every mixtape distribution channel (DatPiff, LiveMixtapes, HotNewHipHop) relies on a like/dislike system in percentages to gauge whether or not a mixtape is received favorably. Artists, especially up and coming ones, pay close attention to the download statistics (most mixtapes are free to download, not just stream), and rating statistics; by proxy, users also use these to gauge whether or not artists are worth keeping track of.<br><br>
+I started off with some sketches in my grid notebook, but unfortunately my notebook ended up being waterlogged, so I couldn't collect photos after the fact. I'd be happy to walk you through it, though!<br><br>
+<h3>Home/Highlighted Mixtapes</h3><br>
+<img class="app2" src="assets/dphome.png"><br><i><small>Redesigned the default page.</small></i><br><br>
+This serves as the new home/default page. It shows simultaneously the highlighted (sponsored) mixtapes, which scrolls horizontally, and the new mixtapes, which scrolls vertically. The rationale is that the higlighted mixtapes still catch the user's eye, while new mixtapes vastly outnumber the sponsored tapes. 'Highlighted' tapes don't change that often, whereas new tapes get uploaded every day. This way, highlighted mixtapes still retain their screen real estate and place in the information hierarchy. Mixtapes come with a percentage rating and a 'hot' indicator as judged by staff, which is already featured in the app - this is a good way for the user to gauge interest. <br><br>You may also notice that I've included a 'now playing' indicator bar at the bottom of each screen as well as navigation tabs - this simplifies getting everywhere and puts everything in view (thanks Julie Zhuo!), and affords the user information about the song status.<br><br>
+<h3>Mixtape Details</h3><br>
+<img class="app2" src="assets/dpmd.png">&nbsp;&nbsp;<img class="app2" src="assets/dpmd2.png"><br><i><small>Mixtape details and a signifier to drag up, revealing rating and download.</small></i><br><br>
+These are the new screens for 'mixtape details', or what is akin to an album page. This is quite standard for an information page; the titles, the album art, and tracklisting. What's different now is that I've included small form statistics about number of plays, downloads and whether or not the mixtape is 'hot', or a staff pick/trending tape. This just gives the user more information to evaluate if it's worth checking out, as well as good statistics for trainspotters, A&Rs, agents, artists, etc. <br><br>
+I struggled with the notion of rating a mixtape and downloading an entire mixtape - these are actions taken because the user has a strong opinion about whether or not a piece of music is well made. I didn't want the buttons to be out in the open and open to mispress, nor did I want the user to be confronted with their judgment of it every time they opened the mixtape, so I decided to hide a menu for it with the white bar.<br><br>
+With the advent of iOS8, 9 and 10, the 'slide up' signifier is firmly implanted in public consciousness. I placed it under the information of the album; it constantly being there signals that there's something underneath that a vertical dragging motion can accomplish. Dragging it up would reveal an upvote/downvote system with appropriate percentages, as well as a 'download' button to download every song in the mixtape. After the user has completed the action, they can slide it back down so it's unintrusive.<br><br>
+<h3>Now Playing</h3><br>
+<img class="app2" src="assets/dpnp.png">&nbsp;&nbsp;<img class="app2" src="assets/dpnp2.png"><br><i><small>Now playing. Pressing the tracklist/queue (top right) reveals the tracklist and the user's progress through the tape.</small></i><br><br>
+Unlike the previous iteration of the app, I've included a full-screen 'now playing' screen. This is pulled up from the bar along the bottom of the screen - tapping the caret brings up the menu from the bottom, and it takes up the entire screen. It takes up the entire screen, obscuring the tabs to prevent mispresses - unless the user is actively curating, this will be the most active screen once the user decides to listen to a mixtape.<br><br>
+The standard array of features (download, AirPlay, scrub) are present, and the user can tap the button in the top right to toggle between album cover view and tracklist view. Instead of opting to cover up the play controls when viewing the queue like most music apps, I have it shown as sequentially listening through and 'skimming' through a mixtape is pretty common, as opposed to full fledged albums.
+<h3>Search</h3><br>
+<img class="app2" src="assets/dpsearch.png"><br><i><small>The search screen.</small></i><br><br>
+Finally, the search screen is bog standard - instead of a convoluted tag cloud, popular searches are shown in a dynamic list that changes based on the input real-time. This makes it easier for the user to find out that one mixtape on the tip of their tongue.<br><br>
+<h3>Thanks for reading!</h3>
+
+
+
+    <footer>
+        <div class="row">
+            <div class="col-lg-12">
+                <p>hello@hongye<span style="display:none"></span>xu.co</p>
+            </div>
+        </div>
+    </footer>
+  </div>
+</div>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>$(function() {$('body').removeClass('fade-out');});</script>
+
+</body>
+
+</html>
