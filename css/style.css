@@ -92,6 +92,7 @@ a:hover {
 }
 
 .backbutton {
+ font-weight: 700;
  position: fixed;
  top:5%;
  left:3%;
@@ -99,12 +100,21 @@ a:hover {
 }
 
 .petra {
+      border-radius: 3px;
     margin-bottom: 25px;
     transition: 0.4s;
     -webkit-transition: 0.4s;
 }
 
+.petra::after {
+    z-index: -1;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
 .petra:hover{
+  transform: scale(1.03, 1.03);
+  -webkit-transform: scale(1.03, 1.03);
   background-color: #4FC3F7;
 }
 
@@ -121,12 +131,21 @@ a:hover {
 }
 
 .gigster {
+      border-radius: 3px;
     margin-bottom: 25px;
     transition: 0.4s;
     -webkit-transition: 0.4s;
 }
 
+.gigster::after {
+    z-index: -1;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
 .gigster:hover{
+  transform: scale(1.03, 1.03);
+  -webkit-transform: scale(1.03, 1.03);
   background-color: #0378E6;
 }
 
@@ -143,12 +162,21 @@ a:hover {
 }
 
 .airbnb {
+      border-radius: 3px;
     margin-bottom: 25px;
     transition: 0.4s;
     -webkit-transition: 0.4s;
 }
 
+.airbnb::after {
+    z-index: -1;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
 .airbnb:hover{
+  transform: scale(1.03, 1.03);
+  -webkit-transform: scale(1.03, 1.03);
   background-color: #FF5A5F;
 }
 
@@ -165,12 +193,21 @@ a:hover {
 }
 
 .buildabear {
+      border-radius: 3px;
     margin-bottom: 25px;
     transition: 0.4s;
     -webkit-transition: 0.4s;
 }
 
+.buildabear::after {
+    z-index: -1;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
 .buildabear:hover{
+  transform: scale(1.03, 1.03);
+  -webkit-transform: scale(1.03, 1.03);
   background-color: #4291FF;
 }
 
@@ -187,12 +224,21 @@ a:hover {
 }
 
 .sep {
+      border-radius: 3px;
     margin-bottom: 25px;
     transition: 0.4s;
     -webkit-transition: 0.4s;
 }
 
+.sep::after {
+    z-index: -1;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
 .sep:hover{
+  transform: scale(1.03, 1.03);
+  -webkit-transform: scale(1.03, 1.03);
   background-color: #28BB9C;
 }
 
@@ -210,12 +256,21 @@ a:hover {
 
 
 .motion {
+    border-radius: 3px;
     margin-bottom: 25px;
     transition: 0.4s;
     -webkit-transition: 0.4s;
 }
 
+.motion::after {
+    z-index: -1;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
 .motion:hover{
+  transform: scale(1.03, 1.03);
+  -webkit-transform: scale(1.03, 1.03);
   background-color: #223039;
 }
 
@@ -233,12 +288,21 @@ a:hover {
 
 
 .innod {
+      border-radius: 3px;
     margin-bottom: 25px;
     transition: 0.4s;
     -webkit-transition: 0.4s;
 }
 
+.innod::after {
+    z-index: -1;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
 .innod:hover{
+  transform: scale(1.03, 1.03);
+  -webkit-transform: scale(1.03, 1.03);
   background-color: #079DC7;
 }
 
@@ -256,12 +320,21 @@ a:hover {
 
 
 .datpiff {
+    border-radius: 3px;
     margin-bottom: 25px;
     transition: 0.4s;
     -webkit-transition: 0.4s;
 }
 
+.datpiff::after {
+    z-index: -1;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
+}
+
 .datpiff:hover{
+  transform: scale(1.03, 1.03);
+  -webkit-transform: scale(1.03, 1.03);
   background-color: #BABABA;
 }
 
@@ -279,24 +352,34 @@ a:hover {
 
 
 .esports {
+    border-radius: 3px;
     margin-bottom: 25px;
-    transition: 0.4s;
-    -webkit-transition: 0.4s;
+    box-shadow: 0 1px 2px rgba(0,0,0,0);
+    transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2 ease-in-out;
+}
+
+.esports::after {
+    z-index: -1;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease-in-out;
 }
 
 .esports:hover{
+  transform: scale(1.03, 1.03);
+  -webkit-transform: scale(1.03, 1.03);
   background-color: #F35467;
 }
 
 .esports:hover p {
-  transition: 0.3s;
-  -webkit-transition: 0.3s;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
   color: #FFFFFF;
 }
 
 .esports:hover h2 {
-  transition: 0.3s;
-  -webkit-transition: 0.3s;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
   color: #FFFFFF;
 }
 
