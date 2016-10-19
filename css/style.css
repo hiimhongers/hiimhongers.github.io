@@ -391,9 +391,7 @@ a:hover {
   overflow: hidden;
   position: relative;
   text-align: center;
-  cursor: default;
   background: #000000;
-  cursor: pointer;
 }
 
 .hovereffect .overlay {
