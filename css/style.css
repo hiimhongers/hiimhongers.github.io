@@ -122,6 +122,18 @@ a.portfolio:hover {
   padding: none;
 }
 
+span.expand1 {
+  display:none;
+}
+
+span.expand1:hover {
+  display: inline;
+}
+
+span.expand2:hover {
+  display:none;
+}
+
 .backbutton {
  font-weight: 700;
  position: fixed;

@@ -32,7 +32,7 @@
         <div class="row">
             <div class="col-lg-8">
                 <h2><b>Hello!
-                <span style="line-height: 1.6em">I'm <a class="index" href="mailto:hello@hongyexu.co">Hongye Xu</a>.<br><br><a class="underlined" href="about.html"><span style="border-bottom: 5px solid #2897EC">Product designer</span></a>, videographer, Melburnian, After Effects evangelist, eSports enthusiast. <br><a class="underlined" href="resume.html#education"><span style="border-bottom: 5px solid #2897EC">Currently a senior at UC Berkeley</span></a> studying Applied Math & Economics.</span></b></h2>
+                <span style="line-height: 1.6em">I'm <a class="expand" href="mailto:hello@hongyexu.co">Hongye Xu</a>.<br><br><a class="underlined" href="about.html"><span style="border-bottom: 5px solid #2897EC">Product designer</span></a>, videographer, Melburnian, After Effects evangelist, eSports enthusiast. <br><a class="underlined" href="resume.html#education"><span style="border-bottom: 5px solid #2897EC">Currently a senior at UC Berkeley</span></a> studying Applied Math & Economics.</span></b></h2>
                 <h2><span style="line-height: 1.6em"><b><br>
                 <a class="index" href="about.html">About Me</a><br>
                 <a class="index" href="resume.html">Resume</a><br>
@@ -146,6 +146,17 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script>$(function() {$('body').removeClass('fade-out');});</script>
+    <script>$('.expand').hover(
+    function() {
+        var $this = $(this);
+        $this.data('initialText', $this.text());
+        $this.text("hello@hongyexu.co").fadeIn();
+    },
+    function() {
+        var $this = $(this);
+        $this.text($this.data('initialText')).fadeIn();
+    }
+);</script>
 </body>
 
 </html>
