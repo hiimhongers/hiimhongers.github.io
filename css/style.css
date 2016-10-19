@@ -40,6 +40,13 @@ img.banner1 {
     width: 65%;
 }
 
+img.logos {
+  height:5%;
+  width:5%;
+  margin-bottom: 8px;
+  margin-left: 5px;
+}
+
 
 p {
   font-family: "inconsolata";
@@ -88,11 +95,22 @@ a.underlined {
   color: #323437;
 }
 
+a.underlined:hover {
+  padding:9px;
+}
+
 a:active {
     text-decoration: none;
 }
 
 a:hover {
+  color: #FFFFFF;
+  padding: 4px;
+  background: #2897EC;
+  text-decoration: none;
+}
+
+a.index:hover {
   color: #FFFFFF;
   padding: 9px;
   background: #2897EC;
