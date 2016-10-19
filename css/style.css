@@ -142,6 +142,12 @@ span.expand2:hover {
  font-size:1.2em;
 }
 
+.upbutton {
+ font-weight: 700;
+ font-size:1.6em;
+ width: 100%;
+}
+
 .petra {
       border-radius: 3px;
     margin-bottom: 25px;
