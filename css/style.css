@@ -40,11 +40,6 @@ img.banner1 {
     width: 65%;
 }
 
-a {
-  -webkit-transition: color 0.2s;
-  transition: color 0.2 ease;
-  color: #2897EC;
-}
 
 p {
   font-family: "inconsolata";
@@ -82,13 +77,31 @@ h6 {
   font-size: 28px;
 }
 
+
+a {
+  -webkit-transition: 0.4s;
+  transition: 0.4 ease;
+  color: #2897EC;
+}
+
+a.underlined {
+  color: #323437;
+}
+
 a:active {
     text-decoration: none;
 }
 
 a:hover {
-  color: #000000;
+  color: #FFFFFF;
+  padding: 9px;
+  background: #2897EC;
   text-decoration: none;
+}
+
+a.portfolio:hover {
+  background: none;
+  padding: none;
 }
 
 .backbutton {
