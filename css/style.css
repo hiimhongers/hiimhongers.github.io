@@ -1,7 +1,7 @@
 body {
     padding-top: 70px;
-    font-family: "adelle-sans", "Karla", sans-serif;
-    font-weight: 100;
+    font-family: "europa", "Helvetica Neue", sans-serif;
+    font-weight: 300;
     background-color: #FBFBFB;
     opacity: 1;
     transition: 0.6s opacity;
@@ -44,15 +44,18 @@ a {
   -webkit-transition: color 0.2s;
   transition: color 0.2 ease;
   color: #2897EC;
-  font-weight: 400;
 }
 
 p {
+  font-family: "inconsolata";
   font-weight: 100;
+  font-size: 16px;
   color: #323437;
+  line-height: 1.8em;
 }
 
 h2 {
+  font-size: 36px;
   color: #323437;
 }
 
@@ -74,6 +77,11 @@ h5 {
   font-size: 18px;
 }
 
+h6 {
+  font-family: "inconsolata";
+  font-size: 28px;
+}
+
 a:active {
     text-decoration: none;
 }
@@ -90,9 +98,208 @@ a:hover {
  font-size:1.2em;
 }
 
-.portfolio-item {
+.petra {
     margin-bottom: 25px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
 }
+
+.petra:hover{
+  background-color: #4FC3F7;
+}
+
+.petra:hover p {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  color: #FFFFFF;
+}
+
+.petra:hover h2 {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  color: #FFFFFF;
+}
+
+.gigster {
+    margin-bottom: 25px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+}
+
+.gigster:hover{
+  background-color: #0378E6;
+}
+
+.gigster:hover p {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  color: #FFFFFF;
+}
+
+.gigster:hover h2 {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  color: #FFFFFF;
+}
+
+.airbnb {
+    margin-bottom: 25px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+}
+
+.airbnb:hover{
+  background-color: #FF5A5F;
+}
+
+.airbnb:hover p {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  color: #FFFFFF;
+}
+
+.airbnb:hover h2 {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  color: #FFFFFF;
+}
+
+.buildabear {
+    margin-bottom: 25px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+}
+
+.buildabear:hover{
+  background-color: #4291FF;
+}
+
+.buildabear:hover p {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  color: #FFFFFF;
+}
+
+.buildabear:hover h2 {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  color: #FFFFFF;
+}
+
+.sep {
+    margin-bottom: 25px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+}
+
+.sep:hover{
+  background-color: #28BB9C;
+}
+
+.sep:hover p {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  color: #FFFFFF;
+}
+
+.sep:hover h2 {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  color: #FFFFFF;
+}
+
+
+.motion {
+    margin-bottom: 25px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+}
+
+.motion:hover{
+  background-color: #223039;
+}
+
+.motion:hover p {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  color: #FFFFFF;
+}
+
+.motion:hover h2 {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  color: #FFFFFF;
+}
+
+
+.innod {
+    margin-bottom: 25px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+}
+
+.innod:hover{
+  background-color: #079DC7;
+}
+
+.innod:hover p {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  color: #FFFFFF;
+}
+
+.innod:hover h2 {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  color: #FFFFFF;
+}
+
+
+.datpiff {
+    margin-bottom: 25px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+}
+
+.datpiff:hover{
+  background-color: #BABABA;
+}
+
+.datpiff:hover p {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  color: #FFFFFF;
+}
+
+.datpiff:hover h2 {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  color: #FFFFFF;
+}
+
+
+.esports {
+    margin-bottom: 25px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+}
+
+.esports:hover{
+  background-color: #F35467;
+}
+
+.esports:hover p {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  color: #FFFFFF;
+}
+
+.esports:hover h2 {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  color: #FFFFFF;
+}
+
 
 .hovereffect {
   width: 100%;
