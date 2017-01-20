@@ -1,8 +1,8 @@
 body {
     padding-top: 70px;
-    font-family: "europa", "Helvetica Neue", sans-serif;
+    font-family: "sofia-pro", "Helvetica Neue", sans-serif;
     font-weight: 300;
-    background-color: #FBFBFB;
+    background-color: #F0F7FD;
     opacity: 1;
     transition: 0.6s opacity;
     -webkit-opacity: 1;
@@ -52,25 +52,27 @@ p {
   font-family: "inconsolata";
   font-weight: 100;
   font-size: 16px;
-  color: #323437;
+  color: #2033FF;
   line-height: 1.8em;
 }
 
 h2 {
-  font-size: 36px;
-  color: #323437;
+  font-size: 28px;
+  color: #2033FF;
 }
 
 h3 {
+  font-size: 24px;
   font-weight: 300;
   line-height: 1.4em;
-  color: #323437;
+  color: #2033FF;
+
 }
 
 h4 {
   font-weight: 300;
   line-height: 1.4em;
-  color: #323437;
+  color: #2033FF;
 }
 
 h5 {
@@ -85,14 +87,15 @@ h6 {
 }
 
 
+
 a {
   -webkit-transition: 0.4s;
   transition: 0.4 ease;
-  color: #2897EC;
+  color: #FF6EA3;
 }
 
 a.underlined {
-  color: #323437;
+  color: #2033FF;
 }
 
 a.underlined:hover {
@@ -106,14 +109,14 @@ a:active {
 a:hover {
   color: #FFFFFF;
   padding: 4px;
-  background: #2897EC;
+  background: #FF6EA3;
   text-decoration: none;
 }
 
 a.index:hover {
   color: #FFFFFF;
   padding: 9px;
-  background: #2897EC;
+  background: #FF6EA3;
   text-decoration: none;
 }
 
@@ -173,7 +176,7 @@ span.expand2:hover {
   color: #FFFFFF;
 }
 
-.petra:hover h2 {
+.petra:hover h3 {
   transition: 0.3s;
   -webkit-transition: 0.3s;
   color: #FFFFFF;
@@ -204,7 +207,7 @@ span.expand2:hover {
   color: #FFFFFF;
 }
 
-.gigster:hover h2 {
+.gigster:hover h3 {
   transition: 0.3s;
   -webkit-transition: 0.3s;
   color: #FFFFFF;
@@ -235,7 +238,7 @@ span.expand2:hover {
   color: #FFFFFF;
 }
 
-.airbnb:hover h2 {
+.airbnb:hover h3 {
   transition: 0.3s;
   -webkit-transition: 0.3s;
   color: #FFFFFF;
@@ -266,7 +269,7 @@ span.expand2:hover {
   color: #FFFFFF;
 }
 
-.buildabear:hover h2 {
+.buildabear:hover h3 {
   transition: 0.3s;
   -webkit-transition: 0.3s;
   color: #FFFFFF;
@@ -297,7 +300,7 @@ span.expand2:hover {
   color: #FFFFFF;
 }
 
-.sep:hover h2 {
+.sep:hover h3 {
   transition: 0.3s;
   -webkit-transition: 0.3s;
   color: #FFFFFF;
@@ -329,7 +332,7 @@ span.expand2:hover {
   color: #FFFFFF;
 }
 
-.motion:hover h2 {
+.motion:hover h3 {
   transition: 0.3s;
   -webkit-transition: 0.3s;
   color: #FFFFFF;
@@ -361,7 +364,7 @@ span.expand2:hover {
   color: #FFFFFF;
 }
 
-.innod:hover h2 {
+.innod:hover h3 {
   transition: 0.3s;
   -webkit-transition: 0.3s;
   color: #FFFFFF;
@@ -393,7 +396,7 @@ span.expand2:hover {
   color: #FFFFFF;
 }
 
-.datpiff:hover h2 {
+.datpiff:hover h3 {
   transition: 0.3s;
   -webkit-transition: 0.3s;
   color: #FFFFFF;
@@ -426,7 +429,7 @@ span.expand2:hover {
   color: #FFFFFF;
 }
 
-.esports:hover h2 {
+.esports:hover h3 {
   transition: 0.3s ease;
   -webkit-transition: 0.3s ease;
   color: #FFFFFF;
@@ -485,7 +488,7 @@ span.expand2:hover {
   transition: opacity 0.35s, transform 0.35s;
 }
 
-.hovereffect:hover h2 {
+.hovereffect:hover h3 {
   opacity: 1;
   filter: alpha(opacity=100);
 }
