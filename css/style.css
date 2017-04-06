@@ -26,9 +26,9 @@
 body {
     font-family: FP-Normal, "Helvetica Neue", sans-serif;
     opacity: 1;
-    transition: 0.6s opacity;
+    transition: 0.8s opacity;
     -webkit-opacity: 1;
-    -webkit-transition: 0.6s opacity;
+    -webkit-transition: 0.8s opacity;
 }
 
 body.fade-out {
@@ -43,29 +43,6 @@ body.img {
     right: 0px;
 }
 
-img.app1 {
-    box-shadow: 0px 0px 40px #D5D5D5;
-    height: 65%;
-    width: 65%;
-}
-
-img.app2 {
-    box-shadow: 0px 0px 40px #E7E7E7;
-    height: 40%;
-    width: 40%;
-}
-
-img.app3 {
-    box-shadow: 0px 0px 40px #E1E1E1;
-    height: 100%;
-    width: 100%;
-}
-
-img.banner1 {
-    box-shadow: 0px 0px 40px #D5D5D5;
-    height: 65%;
-    width: 65%;
-}
 
 img.logos {
   height:5%;
@@ -97,7 +74,7 @@ img.logos {
 p {
   font-family: "inconsolata";
   font-weight: 100;
-  font-size: 16px;
+  font-size: 1em;
   color: #2033FF;
   line-height: 1.8em;
 }
@@ -106,26 +83,26 @@ p {
 
 h1 {
   font-family: FP-SemiBold;
-  font-size: 18px;
+  font-size: 1.125em;
   color: #313131;
-  letter-spacing: -0.41px;
+  letter-spacing: 0.025625em;
 }
 
 h2 {
   font-family: DD-Bold;
-  font-size: 80px;
+  font-size: 5em;
   color: #313131;
-  letter-spacing: -2.33px;
-  line-height: 80px;
+  letter-spacing: -0.145em;
+  line-height: 5em;
   /*mix-blend-mode: multiply;*/
 }
 
 h3 {
   font-family: FP-Medium;
-  font-size: 20px;
+  font-size: 1.25em;
   color: #313131;
   letter-spacing: 0;
-  line-height: 30px;
+  line-height: 1.875em;
   z-index: 100;
   mix-blend-mode: multiply;
 
@@ -133,37 +110,37 @@ h3 {
 
 h4 {
   font-family: FP-Normal;
-  font-size: 16px;
+  font-size: 1em;
   color: #313131;
-  line-height: 24px;
+  line-height: 1.5em;
 }
 
 h4.home {
   letter-spacing: -0.1px;
-  line-height: 10px;
+  line-height: 0.625em;
 }
 
 h4.ltext {
   font-family: FP-Bold;
-  font-size: 14px;
+  font-size: 0.875em;
   color: #2033FF;
-  letter-spacing: -0.32px;
-  line-height: 18px;
+  letter-spacing: -0.02em;
+  line-height: 1.125em;
 }
 
 h5 {
   font-family: DD-Bold;
-  font-size: 36px;
+  font-size: 2.25em;
   color: #313131;
-  letter-spacing: -0.81px;
+  letter-spacing: -0.05em;
 }
 
 h6 {
   font-family: FP-Normal;
-  font-size: 16px;
+  font-size: 1em;
   color: #313131;
   letter-spacing: 0;
-  line-height: 21px;
+  line-height: 1.3125em;
 }
 
 
