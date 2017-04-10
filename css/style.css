@@ -51,6 +51,36 @@ img.logos {
   margin-left: 5px;
 }
 
+img.app1 {
+    box-shadow: 0px 0px 40px #D5D5D5;
+    height: 65%;
+    width: 65%;
+}
+
+img.app2 {
+    box-shadow: 0px 0px 40px #E7E7E7;
+    height: 40%;
+    width: 40%;
+}
+
+img.app3 {
+    box-shadow: 0px 0px 40px #E1E1E1;
+    height: 100%;
+    width: 100%;
+}
+
+img.banner1 {
+    box-shadow: 0px 0px 40px #D5D5D5;
+    height: 65%;
+    width: 65%;
+}
+
+img.logos {
+  height:5%;
+  width:5%;
+  margin-bottom: 8px;
+  margin-left: 5px;
+}
 
 .meme:hover h4{
   -webkit-transition: 0.3s;

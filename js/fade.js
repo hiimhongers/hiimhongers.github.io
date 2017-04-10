@@ -1,5 +1,5 @@
 var fadeStart=300
-    ,fadeUntil=950
+    ,fadeUntil=900
     ,fading = $('#fade')
 ;
 
