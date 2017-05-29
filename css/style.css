@@ -1,31 +1,9 @@
-@font-face {
-  font-family: FP-Normal;
-  src: url('ft/fpnw.ttf');
-}
-
-@font-face {
-  font-family: FP-Medium;
-  src: url('ft/fpmw.ttf');
-}
-
-@font-face {
-  font-family: FP-SemiBold;
-  src: url('ft/fpsb.ttf');
-}
-
-@font-face {
-  font-family: FP-Bold;
-  src: url('ft/fpb.ttf');
-}
-
-@font-face {
-  font-family: DD-Bold;
-  src: url('ft/ddb.ttf');
-}
-
 body {
-    font-family: FP-Normal, "Helvetica Neue", sans-serif;
+    font-family: "Helvetica Neue", sans-serif;
     opacity: 1;
+    background-color: #202021;
+    color: #FFFFFF;
+    margin-top: 40px;
     transition: 0.8s opacity;
     -webkit-opacity: 1;
     -webkit-transition: 0.8s opacity;
@@ -52,40 +30,51 @@ img.logos {
 }
 
 img.app1 {
-    box-shadow: 0px 0px 40px #D5D5D5;
+    box-shadow: 0px 0px 40px #171819;
     height: 65%;
     width: 65%;
+    border-radius:4px;
 }
 
 img.app2 {
-    box-shadow: 0px 0px 40px #E7E7E7;
+    box-shadow: 0px 0px 40px #171819;
     height: 40%;
     width: 40%;
+
+    border-radius:4px;
 }
 
 img.app3 {
-    box-shadow: 0px 0px 40px #E1E1E1;
+    box-shadow: 0px 0px 40px #171819;
     height: 100%;
     width: 100%;
+
+    border-radius:4px;
 }
 
 img.app4 {
     height: 100%;
     width: 100%;
     background-color: transparent;
+
+    border-radius:4px;
 }
 
 img.app5 {
     height: 60%;
     width: 60%;
-    box-shadow: 0px 0px 40px #E7E7E7;
+    box-shadow: 0px 0px 40px #171819;
     background-color: transparent;
+
+    border-radius:4px;
 }
 
 img.banner1 {
-    box-shadow: 0px 0px 40px #D5D5D5;
+    box-shadow: 0px 0px 40px #171819;
     height: 65%;
     width: 65%;
+
+    border-radius:3px;
 }
 
 img.logos {
@@ -118,43 +107,48 @@ p {
   font-family: "inconsolata";
   font-weight: 100;
   font-size: 1.143em;
-  color: #2033FF;
   line-height: 1.8em;
+  color: #FFFFFF;
 }
 
 
 
 h1 {
-  font-family: FP-SemiBold;
-  font-size: 1.1em;
-  color: #313131;
-  letter-spacing: -0.0293em;
+  font-family: HelveticaNeue-Bold;
+  font-size: 2.6em;
+  pointer-events:none;
+  background: rgba(255,255,122,1);
+  background: -moz-linear-gradient(left, rgba(255,255,122,1) 0%, rgba(255,113,113,1) 15%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,122,1)), color-stop(15%, rgba(255,113,113,1)));
+  background: -webkit-linear-gradient(left, rgba(255,255,122,1) 0%, rgba(255,113,113,1) 15%);
+  background: -o-linear-gradient(left, rgba(255,255,122,1) 0%, rgba(255,113,113,1) 15%);
+  background: -ms-linear-gradient(left, rgba(255,255,122,1) 0%, rgba(255,113,113,1) 15%);
+  background: linear-gradient(to right, rgba(255,255,122,1) 0%, rgba(255,113,113,1) 15%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff7a', endColorstr='#ff7171', GradientType=1 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h2 {
-  font-family: DD-Bold;
-  font-size: 5.75em;
-  color: #313131;
-  letter-spacing: -0.04em;
-  line-height: 1em;
-  /*mix-blend-mode: multiply;*/
+  font-family: Inconsolata;
+  font-size: 1.7em;
+  line-height: 0;
+  color: #FFFFFF;
 }
 
 h3 {
-  font-family: FP-Medium;
-  font-size: 1.43em;
-  color: #313131;
-  letter-spacing: 0;
-  line-height: 1.5em;
+  font-family: HelveticaNeue;
+  font-size: 1.7em;
+  color: #FFFFFF;
+  line-height: 1.4em;
+  letter-spacing: 0.2px;
   z-index: 100;
-  mix-blend-mode: multiply;
 
 }
 
 h4 {
-  font-family: FP-Normal;
   font-size: 1.143em;
-  color: #313131;
+  color: #FFFFFF;
   line-height: 1.5em;
 }
 
@@ -164,7 +158,6 @@ h4.home {
 }
 
 h4.ltext {
-  font-family: FP-Bold;
   font-size: 1em;
   color: #2033FF;
   letter-spacing: -0.32px;
@@ -172,16 +165,14 @@ h4.ltext {
 }
 
 h5 {
-  font-family: DD-Bold;
   font-size: 2.65em;
-  color: #313131;
+  color: #FFFFFF;
   letter-spacing: -0.04em;
 }
 
 h6 {
-  font-family: FP-Normal;
   font-size: 1.143em;
-  color: #313131;
+  color: #FFFFFF;
   letter-spacing: 0;
   line-height: 1.3125em;
 }
@@ -191,12 +182,14 @@ h6 {
 a {
   -webkit-transition: 0.4s;
   transition: 0.4 ease;
-  color: #2033FF;
-  border-bottom: thin solid;
+  color: #FFFFFF;
+  font-weight: bold;
+  border-bottom: solid;
 }
 
 
 a:hover {
+  color: #FF8383;
   text-decoration: none;
 }
 
