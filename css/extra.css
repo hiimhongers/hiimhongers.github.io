@@ -2,10 +2,62 @@ body {
   background-color: #0A0A0A;
 }
 
+
 .itme {
   margin-top: 20%;
 }
 
+#navbar {
+  margin-left: 5%;
+  position: fixed;
+}
+
+#nav {
+  font-weight: 300;
+  line-height: normal;
+}
+
+#nav:hover {
+  font-weight: 400;
+}
+
+.video1 {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.inlined {
+  text-decoration: underline;
+  line-height: normal;
+}
+
+.inlined:hover {
+  margin-left: 0;
+
+}
+
+.content {
+  margin-top: 4%;
+}
+
+.words img {
+  max-width: 80%;
+  border-radius: 4px;
+  box-shadow: 0 0 40px 0 rgba(0,0,0,0.3);
+}
+
+.app3 {
+  max-width: 100%;
+}
 
 .itme img {
   float: left;
@@ -15,6 +67,11 @@ body {
   pointer-events: none;
 }
 
+.minime {
+  width: 20%;
+  margin-bottom: -5%;
+  pointer-events: none;
+}
 
 hr {
   border-top: 2px solid;
@@ -22,4 +79,8 @@ hr {
   text-align:left;
   margin-left:0;
 
+}
+.navdiv {
+  max-width: 55%;
+  text-align: left;
 }
