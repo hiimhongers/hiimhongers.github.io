@@ -1,7 +1,7 @@
 body {
-    font-family: "Helvetica Neue", sans-serif;
+    font-family: "Sofia Pro", sans-serif;
     opacity: 1;
-    background-color: #202021;
+    background-color: #131314;
     color: #FFFFFF;
     margin-top: 40px;
     transition: 0.8s opacity;
@@ -114,17 +114,10 @@ p {
 
 
 h1 {
-  font-family: HelveticaNeue-Bold;
+  font-family: "Sofia Pro";
   font-size: 2.6em;
   pointer-events:none;
-  background: rgba(255,255,122,1);
-  background: -moz-linear-gradient(left, rgba(255,255,122,1) 0%, rgba(255,113,113,1) 15%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,122,1)), color-stop(15%, rgba(255,113,113,1)));
-  background: -webkit-linear-gradient(left, rgba(255,255,122,1) 0%, rgba(255,113,113,1) 15%);
-  background: -o-linear-gradient(left, rgba(255,255,122,1) 0%, rgba(255,113,113,1) 15%);
-  background: -ms-linear-gradient(left, rgba(255,255,122,1) 0%, rgba(255,113,113,1) 15%);
-  background: linear-gradient(to right, rgba(255,255,122,1) 0%, rgba(255,113,113,1) 15%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff7a', endColorstr='#ff7171', GradientType=1 );
+  background: #FFFFFF;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -137,7 +130,7 @@ h2 {
 }
 
 h3 {
-  font-family: HelveticaNeue;
+  font-family: "Sofia Pro";
   font-size: 1.7em;
   color: #FFFFFF;
   line-height: 1.4em;
@@ -189,7 +182,7 @@ a {
 
 
 a:hover {
-  color: #FF8383;
+  color: #2033FF;
   text-decoration: none;
 }
 
@@ -217,37 +210,11 @@ img.itme {
   pointer-events: none;
 }
 
-.container img {
-
+.container {
+  margin-top: 20%;
+  left: 0;
+  /*border-radius:1px; */
 }
-
-.topper img {
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  z-index: -1;
-  max-width:100%;
-  height: auto;
-}
-
-.meme {
-  height: 350px;
-  background-image: url("meme.svg");
-  background-repeat: repeat-x;
-  background-position-y: 295px;
-  display: block;
-}
-
-.meme:hover {
-  background-image: url("squig.svg");
-  background-repeat: repeat-x;
-  background-position-y: 295px;
-}
-
-/*.meme img {
-  position: absolute;
-  bottom: 35px;
-}*/
 
 .backbutton {
  font-weight: 700;
@@ -271,7 +238,7 @@ img.itme {
   overflow: hidden;
   position: relative;
   text-align: center;
-  background: #000000;
+  background: #FFFFFF;
 }
 
 .hovereffect2 {
@@ -376,7 +343,7 @@ img.itme {
 }
 
 .hovereffect2 h2 {
-  color: #000000;
+  color: #FFFFFF;
   text-align: center;
   position: relative;
   font-size: 17px;
@@ -394,7 +361,7 @@ img.itme {
 }
 
 .hovereffect2 a, .hovereffect2 p {
-  color: #000000;
+  color: #FFFFFF;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
