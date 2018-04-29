@@ -2,7 +2,7 @@ body {
     font-family: "Sofia Pro", sans-serif;
     opacity: 1;
     background-color: #131314;
-    color: #FFFFFF;
+    color: #444444;
     margin-top: 40px;
     transition: 0.8s opacity;
     -webkit-opacity: 1;
@@ -108,7 +108,7 @@ p {
   font-weight: 100;
   font-size: 1.143em;
   line-height: 1.8em;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 
@@ -117,7 +117,7 @@ h1 {
   font-family: "Sofia Pro";
   font-size: 2.6em;
   pointer-events:none;
-  background: #FFFFFF;
+  background: #000000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -126,13 +126,13 @@ h2 {
   font-family: Inconsolata;
   font-size: 1.7em;
   line-height: 0;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 h3 {
   font-family: "Sofia Pro";
   font-size: 1.7em;
-  color: #FFFFFF;
+  color: #000000;
   line-height: 1.4em;
   letter-spacing: 0.2px;
   z-index: 100;
@@ -141,7 +141,7 @@ h3 {
 
 h4 {
   font-size: 1.143em;
-  color: #FFFFFF;
+  color: #000000;
   line-height: 1.5em;
 }
 
@@ -159,13 +159,13 @@ h4.ltext {
 
 h5 {
   font-size: 2.65em;
-  color: #FFFFFF;
+  color: #000000;
   letter-spacing: -0.04em;
 }
 
 h6 {
   font-size: 1.143em;
-  color: #FFFFFF;
+  color: #000000;
   letter-spacing: 0;
   line-height: 1.3125em;
 }
@@ -175,7 +175,7 @@ h6 {
 a {
   -webkit-transition: 0.4s;
   transition: 0.4 ease;
-  color: #FFFFFF;
+  color: #000000;
   font-weight: bold;
   border-bottom: solid;
 }
@@ -238,7 +238,7 @@ img.itme {
   overflow: hidden;
   position: relative;
   text-align: center;
-  background: #FFFFFF;
+  background: #000000;
 }
 
 .hovereffect2 {
@@ -343,7 +343,7 @@ img.itme {
 }
 
 .hovereffect2 h2 {
-  color: #FFFFFF;
+  color: #000000;
   text-align: center;
   position: relative;
   font-size: 17px;
@@ -361,7 +361,7 @@ img.itme {
 }
 
 .hovereffect2 a, .hovereffect2 p {
-  color: #FFFFFF;
+  color: #000000;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
